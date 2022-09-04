@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B66CA41528C488F700520E26 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CA41428C488F700520E26 /* StartViewController.swift */; };
+		B66CA41728C4890A00520E26 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CA41628C4890A00520E26 /* ResultViewController.swift */; };
+		B66CA41928C48A2500520E26 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66CA41828C48A2500520E26 /* GameViewController.swift */; };
 		B6EB76A928BC64E700A0BB22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EB76A828BC64E700A0BB22 /* AppDelegate.swift */; };
 		B6EB76AB28BC64E700A0BB22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EB76AA28BC64E700A0BB22 /* SceneDelegate.swift */; };
 		B6EB76AD28BC64E700A0BB22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EB76AC28BC64E700A0BB22 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B66CA41428C488F700520E26 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		B66CA41628C4890A00520E26 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		B66CA41828C48A2500520E26 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		B6EB76A528BC64E700A0BB22 /* Renda_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renda_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6EB76A828BC64E700A0BB22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6EB76AA28BC64E700A0BB22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				B6EB76B128BC64EA00A0BB22 /* Assets.xcassets */,
 				B6EB76B328BC64EA00A0BB22 /* LaunchScreen.storyboard */,
 				B6EB76B628BC64EA00A0BB22 /* Info.plist */,
+				B66CA41428C488F700520E26 /* StartViewController.swift */,
+				B66CA41628C4890A00520E26 /* ResultViewController.swift */,
+				B66CA41828C48A2500520E26 /* GameViewController.swift */,
 			);
 			path = Renda_test;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66CA41728C4890A00520E26 /* ResultViewController.swift in Sources */,
 				B6EB76AD28BC64E700A0BB22 /* ViewController.swift in Sources */,
+				B66CA41528C488F700520E26 /* StartViewController.swift in Sources */,
 				B6EB76A928BC64E700A0BB22 /* AppDelegate.swift in Sources */,
+				B66CA41928C48A2500520E26 /* GameViewController.swift in Sources */,
 				B6EB76AB28BC64E700A0BB22 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
